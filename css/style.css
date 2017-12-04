@@ -1,1 +1,18 @@
+img {
+    height:300px;
+    width:900px;
+    text-align:center;
+    float:left;
+}
+h1{
+    font-size:80%;
+}
+.wrapper {
+    text-align: center;
+}
 
+.button {
+    position: absolute;
+    top: 50%;
+}
+//*** <button type="button">Click Me!</button>

@@ -23,6 +23,32 @@
 
 
 //FUNCTIONS
+var button = document.createElement("button");
+button.innerHTML = "name";
+
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("name");
+});
+$("p").click(function(){
+    alert("The paragraph was clicked.");
+});
+var userChoice="";
+
+var computerChoice="";
+
+var winner="";
+
+var choices=[
+     "rock",
+     "paper", 
+     "scissors",
+        ];
+
+
 
 
 
